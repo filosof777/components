@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+header {
+  padding: 40px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#get {
+  background-image: url("../img/background-img.svg");
+  display: inline-block;
+  width: 100%;
+}
+
+.inner {
+  padding: 121px 165px;
+}
+
+.get-title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: -0.520833px;
+  color: #FFFFFF;
+}
+
+.get-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.get-info {
+  margin: 0;
+  padding: 17px;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.267857px;
+  color: #FFFFFF;
+  background-color: #5E54A4;
+  transition: all 0.5 ease;
+  background: #5E54A4;
+  padding: 17px auto;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.input-sec {
+  padding: 40px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+}
+
+.form-input {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 15px 32px;
+  width: 100%;
+  margin-bottom: 20px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  color: #3D3B48;
+}
+
+.btn-send {
+  background: #38CC8B;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  padding: 19px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  justify-content: center;
+  transition: all 0.1s ease;
+  border: 1px solid #38CC8B transparent;
+
+}
+
+.btn-send:active {
+  color:#38CC8B;
+  background-color: #ffffff;
+  display: inline;
+  border: 1px solid #38CC8B transparent;
+}
+
+.get-info-text {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 26px;
+  color: #BAB7D4; 
+  margin-right: 5px;
+  margin-left: 60px;  
+}
+
+.get-link {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  color: #FF7979;
+}
